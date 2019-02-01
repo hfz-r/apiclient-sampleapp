@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\hafiz\Desktop\SMS.ApiSampleApp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/31/2019 15:26:49</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/31/2019 16:00:22</publishTime>
+    </File>
+    <File Include="bin/SMS.Api.AdapterLibrary.dll">
+      <publishTime>02/01/2019 15:37:25</publishTime>
+    </File>
+    <File Include="bin/SMS.Api.SampleApp.dll">
+      <publishTime>02/01/2019 15:37:25</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/31/2019 15:23:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/31/2019 15:23:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/31/2019 15:23:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/31/2019 15:23:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/31/2019 15:23:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/31/2019 15:23:19</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/31/2019 15:23:19</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/31/2019 16:00:23</publishTime>
+    </File>
+    <File Include="Views/AccessToken.cshtml">
+      <publishTime>02/01/2019 14:08:45</publishTime>
+    </File>
+    <File Include="Views/Index.cshtml">
+      <publishTime>02/01/2019 14:40:00</publishTime>
+    </File>
+    <File Include="Views/Users.cshtml">
+      <publishTime>02/01/2019 14:08:39</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>01/31/2019 15:23:19</publishTime>
+    </File>
+    <File Include="Views/_Layout.cshtml">
+      <publishTime>01/31/2019 15:27:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/01/2019 15:37:25</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

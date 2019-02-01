@@ -1,0 +1,5 @@
+C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\bin\Release\SMS.Api.AdapterLibrary.dll
+C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\bin\Release\SMS.Api.AdapterLibrary.pdb
+C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\obj\Release\SMS.Api.AdapterLibrary.csprojResolveAssemblyReference.cache
+C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\obj\Release\SMS.Api.AdapterLibrary.dll
+C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\obj\Release\SMS.Api.AdapterLibrary.pdb

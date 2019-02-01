@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginRouteForm("Submit", FormMethod.Post))
+        {
+            <table>
+                <tr>
+                    <td>
+                        <label for="serverUrl">Server url</label>
+                    </td>
+                    <td>
+                        <input name="serverUrl" type="text" id="serverUrl" style="width:400px" placeholder="url from server which hosted SMS" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="clientId">Client Id</label>
+                    </td>
+                    <td>
+                        <input name="clientId" type="text" id="clientId" style="width:400px" placeholder="need to tally with the SMS Api Settings" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="clientSecret">Client Secret</label>
+                    </td>
+                    <td>
+                        <input name="clientSecret" type="text" id="clientSecret" style="width:400px" placeholder="need to tally with the SMS Api Settings" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="redirectUrl">Redirect Url</label>
+                    </td>
+                    <td>
+                        <input name="redirectUrl" type="text" id="redirectUrl" value="@Url.RouteUrl("GetAccessToken", null, Request.Url.Scheme)" 
+                               readonly="readonly" style="width:400px" placeholder="" />
+                        <small>copy this url and set it to the client's Callback Url on SMS Api Settings.</small>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Get Access Token" />
+                    </td>
+                </tr>
+            </table>
+        }
+    </div>
+</body>
+</html>
