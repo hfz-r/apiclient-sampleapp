@@ -12,7 +12,7 @@
       "LoginToken": false,
       "PasswordLastModified": null,
       "UserPassword": {
-        "password": "hafiz007",
+        "password": "password",
         "created_on": "2019-06-13T04:07:37.5258872",
         "password_format": "Clear",
         "id": 1
