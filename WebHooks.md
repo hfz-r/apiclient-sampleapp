@@ -127,7 +127,16 @@
 6. **Update a webhook**:
     Make a **PUT** request to the following route: **/api/webhooks/registrations/{webhookid}**
     
-    The JSON should contain at least the WebHook Id, WebHookUri and Filters.
+    With JSON data:
+    
+    ```json
+    {
+        "WebHookUri": "http://localhost:51502/api/webhook?NoEcho=true",
+        "Filters": [
+            "transaction/created"
+        ]
+    }
+     ```
     
 7. **Delete a specific webHook**:
     Make a **DELETE** request to the following route: **/api/webhooks/registrations/{webhookid}** 
