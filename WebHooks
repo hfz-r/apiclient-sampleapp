@@ -1,4 +1,0 @@
-## WebHook
-- available command
-   1. Registration
-      **POST** request to the following route: **/api/webhooks/registrations**
