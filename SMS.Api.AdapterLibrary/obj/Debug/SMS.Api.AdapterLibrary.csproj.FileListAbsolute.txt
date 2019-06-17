@@ -2,4 +2,3 @@ C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\bin\Debug\SMS.Api.AdapterLibrary.dll
 C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\bin\Debug\SMS.Api.AdapterLibrary.pdb
 C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\obj\Debug\SMS.Api.AdapterLibrary.dll
 C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\obj\Debug\SMS.Api.AdapterLibrary.pdb
-C:\myNEWS.Api.Sample\SMS.Api.AdapterLibrary\obj\Debug\SMS.Api.AdapterLibrary.csprojResolveAssemblyReference.cache

@@ -1,0 +1,38 @@
+﻿@model SMS.Api.SampleApp.Models.WebHookRegistration
+
+@{
+    Layout = "~/Views/_Layoutv2.cshtml";
+
+    ViewBag.Title = "Subscribe WebHook";
+}
+
+<div class="pb-5">
+    <h1 class="mt-4">Subscribe</h1>
+
+    @using (Html.BeginForm("Subscribe", "WebHookSetting", FormMethod.Post))
+    {
+        <div class="form-group">
+            @Html.LabelFor(model => model.WebHookUri)
+            @Html.TextBoxFor(model => model.WebHookUri, new {@class = "form-control", type = "url", placeholder = "{scheme}://{host}{:port}/{api_endpoint}"})
+            <small class="form-text text-muted">To skip webhook verification append url with <code>?NoEcho=true</code> </small>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(lbl => lbl.Description)
+            @Html.TextAreaFor(model => model.Description, new {@class = "form-control"})
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(lbl => lbl.Secret)
+            @Html.TextBoxFor(model => model.Secret, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(lbl => lbl.SelectedFilterValues)
+            @Html.ListBoxFor(lbox => lbox.SelectedFilterValues, new MultiSelectList(Model.AvailableFilters), new {@class = "custom-select", size = "3"})
+        </div>
+
+        <button type="submit" class="btn btn-primary float-right">Submit</button>
+    }
+
+</div>

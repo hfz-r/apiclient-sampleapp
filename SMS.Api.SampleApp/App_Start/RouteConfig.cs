@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace SMS.Api.SampleApp
@@ -21,7 +17,7 @@ namespace SMS.Api.SampleApp
 
             routes.MapRoute(
                name: "GetAccessToken",
-               url: "token",
+               url: "anything",
                defaults: new { controller = "Authorization", action = "GetAccessToken" }
             );
 
@@ -42,6 +38,24 @@ namespace SMS.Api.SampleApp
               url: "updateuser/{userId}",
               defaults: new { controller = "Users", action = "UpdateUser", userId = UrlParameter.Optional }
            );
+
+            routes.MapRoute(
+                name: "Error",
+                url: "common/error",
+                defaults: new { controller = "Common", action = "Error", userId = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
+                name: "GetWebHook",
+                url: "webhooksetting",
+                defaults: new { controller = "WebHookSetting", action = "Index" }
+            );
+
+            routes.MapRoute(
+                name: "SubscribeWebHook",
+                url: "webhooksetting/subscribe",
+                defaults: new { controller = "WebHookSetting", action = "Subscribe" }
+            );
 
             routes.MapRoute(
                 name: "Default",

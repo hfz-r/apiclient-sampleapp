@@ -19,7 +19,8 @@
                         <label for="serverUrl">Server url</label>
                     </td>
                     <td>
-                        <input name="serverUrl" type="text" id="serverUrl" style="width:400px" placeholder="url from server which hosted SMS" />
+                        <input name="serverUrl" type="text" id="serverUrl" style="width:400px" placeholder="" />
+                        <small>your hosted url</small>
                     </td>
                 </tr>
                 <tr>
@@ -27,7 +28,8 @@
                         <label for="clientId">Client Id</label>
                     </td>
                     <td>
-                        <input name="clientId" type="text" id="clientId" style="width:400px" placeholder="need to tally with the SMS Api Settings" />
+                        <input name="clientId" type="text" id="clientId" style="width:400px" placeholder="" />
+                        <small>your client id (configured in Api Settings)</small>
                     </td>
                 </tr>
                 <tr>
@@ -35,7 +37,8 @@
                         <label for="clientSecret">Client Secret</label>
                     </td>
                     <td>
-                        <input name="clientSecret" type="text" id="clientSecret" style="width:400px" placeholder="need to tally with the SMS Api Settings" />
+                        <input name="clientSecret" type="text" id="clientSecret" style="width:400px" placeholder="" />
+                        <small>your client secret (configured in Api Settings)</small>
                     </td>
                 </tr>
                 <tr>
@@ -45,7 +48,7 @@
                     <td>
                         <input name="redirectUrl" type="text" id="redirectUrl" value="@Url.RouteUrl("GetAccessToken", null, Request.Url.Scheme)" 
                                readonly="readonly" style="width:400px" placeholder="" />
-                        <small>copy this url and set it to the client's Callback Url on SMS Api Settings.</small>
+                        <small>this is your callback url (to be configure on Api Settings > Callback Url)</small>
                     </td>
                 </tr>
                 <tr>
