@@ -148,7 +148,7 @@
 
 ### Usage
 
-- [callback/retrieval page](https://github.com/hfz-r/apiclient-sampleapp/blob/master/SMS.Api.SampleApp/Controllers/WebHookController.cs) and this is the [sample result](https://github.com/hfz-r/apiclient-sampleapp/blob/master/webhook-result-sample.json) as inspected the responder.
+- [callback/retrieval page](https://github.com/hfz-r/apiclient-sampleapp/blob/master/SMS.Api.SampleApp/Controllers/WebHookController.cs) and its [responded](https://github.com/hfz-r/apiclient-sampleapp/blob/master/webhook-result-sample.json)
     ```cs
     [RoutePrefix("api/webhook")]
     public class WebhookController : ApiController
@@ -174,3 +174,5 @@
         }
     }
     ```
+
+- [Postman collection](https://documenter.getpostman.com/view/4900831/S1TSYeDb?version=latest#3b3a56e0-f968-4585-addb-eb4dd3a1ebfb)
